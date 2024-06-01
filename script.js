@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const correctPassword = "ruyav44";
     
-    // Play the background audio once
-    const backgroundAudio = document.getElementById('background-audio');
-    backgroundAudio.play();
-
     // Handle the form submission
     document.getElementById('login-form').addEventListener('submit', function(event) {
         event.preventDefault();
