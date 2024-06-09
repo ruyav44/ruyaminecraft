@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const correctAudio = new Audio('ses/ruyav44dogru.mp3');
             correctAudio.play();
             setTimeout(() => {
-                window.location.href = '/bomb/bomb.html';
+                window.location.href = 'https://ruyav44.github.io/ruyaminecraft/bomb/bomb.html';
             }, 6000);
         } else {
             const incorrectAudio = new Audio('ses/ruyav44yanlis.mp3');
