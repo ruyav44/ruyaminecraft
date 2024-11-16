@@ -2,6 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const correctPassword = "adminpw123"; // amk şifresini crackleyemeninde amk 
     
     // Handle the form submission
+document.getElementById("hintButton").addEventListener("click", function() {
+    var hint = document.getElementById("hint");
+    hint.style.display = hint.style.display === "none" ? "block" : "none";
+    
     document.getElementById('login-form').addEventListener('submit', function(event) {
         event.preventDefault();
         const enteredPassword = document.getElementById('password').value;
