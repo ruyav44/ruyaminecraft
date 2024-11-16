@@ -15,7 +15,7 @@ Bu proje, kullanıcıların dosya yükleyip paylaşabilecekleri bir web platform
 
 ### Gereksinimler
 
-- Node.js
+- Node.js 
 - MongoDB (veya başka bir veritabanı)
 - Express.js (veya tercih edilen framework)
 
