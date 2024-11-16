@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const correctPassword = "ruyav44";
+    const correctPassword = "adminpw123";
     
     // Handle the form submission
     document.getElementById('login-form').addEventListener('submit', function(event) {
@@ -8,15 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const errorMessageElement = document.getElementById('error-message');
         
         if (enteredPassword === correctPassword) {
-            const correctAudio = new Audio('ses/ruyav44dogru.mp3');
+            const correctAudio = new Audio('ses/dogru.mp3');
             correctAudio.play();
             setTimeout(() => {
                 window.location.href = 'https://ruyav44.github.io/ruyaminecraft/bomb/bomb.html';
             }, 6000);
         } else {
-            const incorrectAudio = new Audio('ses/ruyav44yanlis.mp3');
+            const incorrectAudio = new Audio('ses/yanlis.mp3');
             incorrectAudio.play();
-            errorMessageElement.innerText = "You Entered The Wrong Password. Our Telegram Address For Help: t.me/ruyav44";
+            errorMessageElement.innerText = "You Entered The Wrong Password. Try Again Later!";
             errorMessageElement.style.display = 'block';
             setTimeout(() => {
                 location.reload();
