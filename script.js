@@ -15,7 +15,7 @@ document.getElementById("hintButton").addEventListener("click", function() {
             const correctAudio = new Audio('ses/yanlis.mp3'); // sesler karıştı aq WQEQWEQWE
             correctAudio.play();
             setTimeout(() => {
-                window.location.href = 'https://ruyav44.github.io/ruyaminecraft/bomb/bomb.html';
+                window.location.href = 'https://ruyav44.github.io/ruyaupload/bomb/bomb.html';
             }, 6000);
         } else {
             const incorrectAudio = new Audio('ses/dogru.mp3'); // sesler karıştı aq WQEQWEQWE
